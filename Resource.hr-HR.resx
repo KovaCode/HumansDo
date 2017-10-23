@@ -1,0 +1,2655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="categBlank" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="categOsnovno" xml:space="preserve">
+    <value>Osnovno</value>
+  </data>
+  <data name="categPrilog" xml:space="preserve">
+    <value>Prilog</value>
+  </data>
+  <data name="cmdActivate" xml:space="preserve">
+    <value>Aktiviraj</value>
+  </data>
+  <data name="cmdDelete" xml:space="preserve">
+    <value>&amp;Obriši</value>
+  </data>
+  <data name="cmdDelete2" xml:space="preserve">
+    <value>&amp;Obriši</value>
+  </data>
+  <data name="cmdEndIzvr" xml:space="preserve">
+    <value>Zaključi izvršenje</value>
+  </data>
+  <data name="cmdEnter" xml:space="preserve">
+    <value>&amp;Ulaz</value>
+  </data>
+  <data name="cmdExit" xml:space="preserve">
+    <value>&amp;Izlaz</value>
+  </data>
+  <data name="cmdNew" xml:space="preserve">
+    <value>&amp;Novi unos</value>
+  </data>
+  <data name="cmdOvjeri" xml:space="preserve">
+    <value>Verifikacija</value>
+  </data>
+  <data name="cmdPrint" xml:space="preserve">
+    <value>Is&amp;pis</value>
+  </data>
+  <data name="cmdSave" xml:space="preserve">
+    <value>&amp;Spremi</value>
+  </data>
+  <data name="cmdSave2" xml:space="preserve">
+    <value>&amp;Dodaj\Spremi</value>
+  </data>
+  <data name="cmdStartIzvr" xml:space="preserve">
+    <value>Novo izvršenje</value>
+  </data>
+  <data name="cmdTest" xml:space="preserve">
+    <value>&amp;Testiranje</value>
+  </data>
+  <data name="colAktiv" xml:space="preserve">
+    <value>Aktiv.</value>
+  </data>
+  <data name="colEnd" xml:space="preserve">
+    <value>Kraj</value>
+  </data>
+  <data name="colID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="colKategNaziv" xml:space="preserve">
+    <value>Kategorije</value>
+  </data>
+  <data name="colOper" xml:space="preserve">
+    <value>Operater</value>
+  </data>
+  <data name="colPrioritet" xml:space="preserve">
+    <value>Prioritet</value>
+  </data>
+  <data name="colProjekt" xml:space="preserve">
+    <value>Projekt</value>
+  </data>
+  <data name="colStart" xml:space="preserve">
+    <value>Početak</value>
+  </data>
+  <data name="colStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="colTezina" xml:space="preserve">
+    <value>Zahtjevnost</value>
+  </data>
+  <data name="colUtrosenoo" xml:space="preserve">
+    <value>Utrošeno vrim.</value>
+  </data>
+  <data name="colVoditelj" xml:space="preserve">
+    <value>Voditelj</value>
+  </data>
+  <data name="colVrsta" xml:space="preserve">
+    <value>Vrsta</value>
+  </data>
+  <data name="colZadatak" xml:space="preserve">
+    <value>Zadaci</value>
+  </data>
+  <data name="frmZadatak" xml:space="preserve">
+    <value>Zadaci</value>
+  </data>
+  <data name="lblKorisnik" xml:space="preserve">
+    <value>Korisnik:</value>
+  </data>
+  <data name="lblLozinka" xml:space="preserve">
+    <value>Lozinka:</value>
+  </data>
+  <data name="lblOpis" xml:space="preserve">
+    <value>(Molimo unesite Korisničko ime i Lozinku...)</value>
+  </data>
+  <data name="lblWelcome" xml:space="preserve">
+    <value>Dobrodošli u aplikaciju</value>
+  </data>
+  <data name="rowAktiv" xml:space="preserve">
+    <value>Aktivno</value>
+  </data>
+  <data name="rowDatumKraj" xml:space="preserve">
+    <value>Datum do</value>
+  </data>
+  <data name="rowDatumPoc" xml:space="preserve">
+    <value>Početni datum</value>
+  </data>
+  <data name="rowDetOpis" xml:space="preserve">
+    <value>Det.Opis</value>
+  </data>
+  <data name="rowDO" xml:space="preserve">
+    <value>Kraj</value>
+  </data>
+  <data name="rowKomentari" xml:space="preserve">
+    <value>Komentar</value>
+  </data>
+  <data name="rowKorak" xml:space="preserve">
+    <value>Korak</value>
+  </data>
+  <data name="rowNapomena" xml:space="preserve">
+    <value>Napomena</value>
+  </data>
+  <data name="rowNaziv" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="rowOD" xml:space="preserve">
+    <value>Početak</value>
+  </data>
+  <data name="rowOpis" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="rowPrilog" xml:space="preserve">
+    <value>Prilog</value>
+  </data>
+  <data name="rowPrioritet" xml:space="preserve">
+    <value>Prioritet</value>
+  </data>
+  <data name="rowProjekt" xml:space="preserve">
+    <value>Projekt</value>
+  </data>
+  <data name="rowTezina" xml:space="preserve">
+    <value>Težina</value>
+  </data>
+  <data name="rowVoditelj" xml:space="preserve">
+    <value>Voditelj</value>
+  </data>
+  <data name="rowVrijemeKraj" xml:space="preserve">
+    <value>Vrijeme do</value>
+  </data>
+  <data name="rowVrijemePoc" xml:space="preserve">
+    <value>Početno vrijeme</value>
+  </data>
+  <data name="rowVrstaZad" xml:space="preserve">
+    <value>Vrsta zadatka</value>
+  </data>
+  <data name="stopExec" xml:space="preserve">
+    <value>Završi izvršenje</value>
+  </data>
+  <data name="chkEnd" xml:space="preserve">
+    <value>Završeni zadaci</value>
+  </data>
+  <data name="chkInactive" xml:space="preserve">
+    <value>Za aktivaciju</value>
+  </data>
+  <data name="chkReturned" xml:space="preserve">
+    <value>Vraćeni / neispravni zadaci</value>
+  </data>
+  <data name="chkTest" xml:space="preserve">
+    <value>Za testiranje</value>
+  </data>
+  <data name="chkValidate" xml:space="preserve">
+    <value>Za validaciju</value>
+  </data>
+  <data name="chkWork" xml:space="preserve">
+    <value>Aktivno</value>
+  </data>
+  <data name="cmbFilter" xml:space="preserve">
+    <value>Filter zadataka</value>
+  </data>
+  <data name="cmdMessages" xml:space="preserve">
+    <value>Poruke i obavijesti</value>
+  </data>
+  <data name="colDatum" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="colOpis" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="colStatus2" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="colTreeID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="colTreeNaziv" xml:space="preserve">
+    <value>Operater</value>
+  </data>
+  <data name="colTreeVrsta" xml:space="preserve">
+    <value>Vrsta</value>
+  </data>
+  <data name="colUtroseno" xml:space="preserve">
+    <value>Utrošeno vrim.</value>
+  </data>
+  <data name="group" xml:space="preserve">
+    <value>Podaci sustava</value>
+  </data>
+  <data name="group2" xml:space="preserve">
+    <value>Moji zadaci</value>
+  </data>
+  <data name="group3" xml:space="preserve">
+    <value>Moja izvršenja</value>
+  </data>
+  <data name="lblUkI" xml:space="preserve">
+    <value>Vrijeme izvršenja:</value>
+  </data>
+  <data name="lblUkP" xml:space="preserve">
+    <value>Vrijeme projekta:</value>
+  </data>
+  <data name="lblUkZad" xml:space="preserve">
+    <value>Vrijeme zadatka:</value>
+  </data>
+  <data name="menuAbout" xml:space="preserve">
+    <value>Informacije o sustavu</value>
+  </data>
+  <data name="menuAppLogg" xml:space="preserve">
+    <value>Version logg</value>
+  </data>
+  <data name="menubuSQL" xml:space="preserve">
+    <value>Backup / Restore baze</value>
+  </data>
+  <data name="menuCalc" xml:space="preserve">
+    <value>Kalkulator</value>
+  </data>
+  <data name="menuChat" xml:space="preserve">
+    <value>Brbljaonica</value>
+  </data>
+  <data name="menuClient" xml:space="preserve">
+    <value>Klijent</value>
+  </data>
+  <data name="menuExpHTML" xml:space="preserve">
+    <value>Web page (*.HTML)</value>
+  </data>
+  <data name="menuExport" xml:space="preserve">
+    <value>Izvoz</value>
+  </data>
+  <data name="menuExpPDF" xml:space="preserve">
+    <value>Adobe PDF (*.PDF)</value>
+  </data>
+  <data name="menuExpRTF" xml:space="preserve">
+    <value>Rich text format (*.RTF)</value>
+  </data>
+  <data name="menuExpXLS" xml:space="preserve">
+    <value>Excel (*.XLS)</value>
+  </data>
+  <data name="menuExpXLSX" xml:space="preserve">
+    <value>Excel (*.XLSX)</value>
+  </data>
+  <data name="menuGroupAlati" xml:space="preserve">
+    <value>Alati</value>
+  </data>
+  <data name="menuGroupExtra" xml:space="preserve">
+    <value>Dodaci sustavu</value>
+  </data>
+  <data name="menuGroupHelp" xml:space="preserve">
+    <value>Administracija</value>
+  </data>
+  <data name="menuGroupHelp2" xml:space="preserve">
+    <value>Helpdesk</value>
+  </data>
+  <data name="menuGroupKomun" xml:space="preserve">
+    <value>Komunikacija</value>
+  </data>
+  <data name="menuGroupLogg" xml:space="preserve">
+    <value>Pomoć i logiranje</value>
+  </data>
+  <data name="menuGroupOper" xml:space="preserve">
+    <value>Unos operatera</value>
+  </data>
+  <data name="menuGroupParam" xml:space="preserve">
+    <value>Parametrizacija sustava</value>
+  </data>
+  <data name="menuGroupPreg" xml:space="preserve">
+    <value>Pregled</value>
+  </data>
+  <data name="menuGroupPreg2" xml:space="preserve">
+    <value>Pregled</value>
+  </data>
+  <data name="menuGroupSafe" xml:space="preserve">
+    <value>Sigurnost aplikacije</value>
+  </data>
+  <data name="menuGroupStat" xml:space="preserve">
+    <value>Statistike</value>
+  </data>
+  <data name="menuHelp" xml:space="preserve">
+    <value>Ticketins sustav/ Helpdesk</value>
+  </data>
+  <data name="menuHistory" xml:space="preserve">
+    <value>Povijest</value>
+  </data>
+  <data name="menuIzvr" xml:space="preserve">
+    <value>Trenutna izvršenja</value>
+  </data>
+  <data name="menuKateg" xml:space="preserve">
+    <value>Kategorije</value>
+  </data>
+  <data name="menuKoment" xml:space="preserve">
+    <value>Komentari</value>
+  </data>
+  <data name="menuLogg" xml:space="preserve">
+    <value>Pregled logg-ova</value>
+  </data>
+  <data name="menuMyDocs" xml:space="preserve">
+    <value>Moji dokumenti</value>
+  </data>
+  <data name="menuNotepad" xml:space="preserve">
+    <value>Notepad</value>
+  </data>
+  <data name="menuNotes" xml:space="preserve">
+    <value>PostIT</value>
+  </data>
+  <data name="menuOper" xml:space="preserve">
+    <value>Operater</value>
+  </data>
+  <data name="menuPageAdmin" xml:space="preserve">
+    <value>Administracija i statistika</value>
+  </data>
+  <data name="menuPageDodaci" xml:space="preserve">
+    <value>Dodaci</value>
+  </data>
+  <data name="menuPageMain" xml:space="preserve">
+    <value>Osnovni podaci</value>
+  </data>
+  <data name="menuPageProZad" xml:space="preserve">
+    <value>Projekti &amp; Zadaci</value>
+  </data>
+  <data name="menuPageSett" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="menuPassPol" xml:space="preserve">
+    <value>Pravila lozinke</value>
+  </data>
+  <data name="menuPlanner" xml:space="preserve">
+    <value>Planner</value>
+  </data>
+  <data name="menuPrava" xml:space="preserve">
+    <value>Prava aplikacije</value>
+  </data>
+  <data name="menuPrilog" xml:space="preserve">
+    <value>Pregled priloga</value>
+  </data>
+  <data name="menuPrint" xml:space="preserve">
+    <value>Ispis</value>
+  </data>
+  <data name="menuPrior" xml:space="preserve">
+    <value>Prioritet</value>
+  </data>
+  <data name="menuPro" xml:space="preserve">
+    <value>Projekti</value>
+  </data>
+  <data name="menuRemote" xml:space="preserve">
+    <value>Remote Desktop</value>
+  </data>
+  <data name="menuScripta" xml:space="preserve">
+    <value>SCRIPT</value>
+  </data>
+  <data name="menuStatOP" xml:space="preserve">
+    <value>Pregled operatera (statistika)</value>
+  </data>
+  <data name="menuStatPR" xml:space="preserve">
+    <value>Pregled projekta (statistka)</value>
+  </data>
+  <data name="menuStatZD" xml:space="preserve">
+    <value>Pregled zadataka (statistika)</value>
+  </data>
+  <data name="menuTasks" xml:space="preserve">
+    <value>Moje aktivnosti (2DO)</value>
+  </data>
+  <data name="menuTezina" xml:space="preserve">
+    <value>Težina zadatka</value>
+  </data>
+  <data name="menuUpute" xml:space="preserve">
+    <value>Upute</value>
+  </data>
+  <data name="menuVrste" xml:space="preserve">
+    <value>Vrste</value>
+  </data>
+  <data name="menuZad" xml:space="preserve">
+    <value>Zadaci</value>
+  </data>
+  <data name="rowIP" xml:space="preserve">
+    <value>IP računala</value>
+  </data>
+  <data name="rowOper" xml:space="preserve">
+    <value>Operater</value>
+  </data>
+  <data name="rowPrava" xml:space="preserve">
+    <value>Prava</value>
+  </data>
+  <data name="rowVrim" xml:space="preserve">
+    <value>Vrijeme logiranja</value>
+  </data>
+  <data name="tabDetail" xml:space="preserve">
+    <value>Planirano/Stvarno vrijeme (Zadatak)</value>
+  </data>
+  <data name="tabGraph" xml:space="preserve">
+    <value>Vrijeme rada (Izvršenja)</value>
+  </data>
+  <data name="categDoc" xml:space="preserve">
+    <value>Prilozi</value>
+  </data>
+  <data name="categKorisnik" xml:space="preserve">
+    <value>Korisnički podaci</value>
+  </data>
+  <data name="categOfficial" xml:space="preserve">
+    <value>Podaci o zaposleniku</value>
+  </data>
+  <data name="categOsobni" xml:space="preserve">
+    <value>Osobni podaci</value>
+  </data>
+  <data name="categPodaci1" xml:space="preserve">
+    <value>Data 1</value>
+  </data>
+  <data name="colIme" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="colPrezime" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="colRadnoMj" xml:space="preserve">
+    <value>Radno mj.</value>
+  </data>
+  <data name="frmLogin" xml:space="preserve">
+    <value>Logiranje u humansDO?</value>
+  </data>
+  <data name="frmMainNew" xml:space="preserve">
+    <value>Glavni prozor</value>
+  </data>
+  <data name="rowBirthDay" xml:space="preserve">
+    <value>Rođendan</value>
+  </data>
+  <data name="rowBoja" xml:space="preserve">
+    <value>Boja</value>
+  </data>
+  <data name="rowDatumDo" xml:space="preserve">
+    <value>Datum do</value>
+  </data>
+  <data name="rowDatumOd" xml:space="preserve">
+    <value>Početni datum</value>
+  </data>
+  <data name="rowEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="rowEmailS" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="rowHint" xml:space="preserve">
+    <value>Mig</value>
+  </data>
+  <data name="rowIme" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="rowMjesto" xml:space="preserve">
+    <value>Mjesto</value>
+  </data>
+  <data name="rowMobitel" xml:space="preserve">
+    <value>Mobitel</value>
+  </data>
+  <data name="rowMobitelS" xml:space="preserve">
+    <value>Mobitel</value>
+  </data>
+  <data name="rowOrgJed" xml:space="preserve">
+    <value>Org.jed</value>
+  </data>
+  <data name="rowPass" xml:space="preserve">
+    <value>Lozinka</value>
+  </data>
+  <data name="rowPrezime" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="rowRadMj" xml:space="preserve">
+    <value>Radno mjesto</value>
+  </data>
+  <data name="rowSlika" xml:space="preserve">
+    <value>Slika</value>
+  </data>
+  <data name="rowSpol" xml:space="preserve">
+    <value>Spol</value>
+  </data>
+  <data name="rowTelefon" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="rowTelefonS" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="rowTvrtka" xml:space="preserve">
+    <value>Tvrtka</value>
+  </data>
+  <data name="rowUsername" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="rowZupa" xml:space="preserve">
+    <value>Regija</value>
+  </data>
+  <data name="frmOperateri" xml:space="preserve">
+    <value>Operateri</value>
+  </data>
+  <data name="colAdresa" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="colKucaBr" xml:space="preserve">
+    <value>Br.</value>
+  </data>
+  <data name="colNaziv" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="frmClients" xml:space="preserve">
+    <value>Klijent</value>
+  </data>
+  <data name="groupOper" xml:space="preserve">
+    <value>Unos podataka / pregled</value>
+  </data>
+  <data name="M" xml:space="preserve">
+    <value>Muško</value>
+  </data>
+  <data name="rowMB" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="Z" xml:space="preserve">
+    <value>Žensko</value>
+  </data>
+  <data name="colNazivPro" xml:space="preserve">
+    <value>Naziv projekta</value>
+  </data>
+  <data name="rowAnalysis" xml:space="preserve">
+    <value>Analiza</value>
+  </data>
+  <data name="rowCorections" xml:space="preserve">
+    <value>Ispravak</value>
+  </data>
+  <data name="rowDemos" xml:space="preserve">
+    <value>Demo &amp; Dokumentacija</value>
+  </data>
+  <data name="rowImplementation" xml:space="preserve">
+    <value>Implementacija</value>
+  </data>
+  <data name="rowPlaning" xml:space="preserve">
+    <value>Planirano</value>
+  </data>
+  <data name="rowRok" xml:space="preserve">
+    <value>Završni datum:</value>
+  </data>
+  <data name="rowVrsta" xml:space="preserve">
+    <value>Vrsta</value>
+  </data>
+  <data name="rowUkupno" xml:space="preserve">
+    <value>Vrijeme zadatka</value>
+  </data>
+  <data name="Analiza" xml:space="preserve">
+    <value>Analiza</value>
+  </data>
+  <data name="categOstalo" xml:space="preserve">
+    <value>Ostalo</value>
+  </data>
+  <data name="categPlan" xml:space="preserve">
+    <value>Planirano vrijeme</value>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Demo &amp; Dokumentacija</value>
+  </data>
+  <data name="frmChartOper" xml:space="preserve">
+    <value>Pregled faze razvoja projekta</value>
+  </data>
+  <data name="frmProjekt" xml:space="preserve">
+    <value>Projekti</value>
+  </data>
+  <data name="Implement" xml:space="preserve">
+    <value>Implementacija</value>
+  </data>
+  <data name="Plan" xml:space="preserve">
+    <value>Planiranje</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Testiranje</value>
+  </data>
+  <data name="chkMoje" xml:space="preserve">
+    <value>Prikaži samo moje</value>
+  </data>
+  <data name="cmdExport" xml:space="preserve">
+    <value>I&amp;zvoz</value>
+  </data>
+  <data name="colIDIZV" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="colIDPRO" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="colIDZAD" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="colKomentIZV" xml:space="preserve">
+    <value>Komentar</value>
+  </data>
+  <data name="colOperPRO" xml:space="preserve">
+    <value>Operater</value>
+  </data>
+  <data name="colOperZAD" xml:space="preserve">
+    <value>Operater</value>
+  </data>
+  <data name="colOpisIZV" xml:space="preserve">
+    <value>Opis izvršenja</value>
+  </data>
+  <data name="colOpisPRO" xml:space="preserve">
+    <value>Naziv projekta</value>
+  </data>
+  <data name="colOpisZAD" xml:space="preserve">
+    <value>Naziv zadatka</value>
+  </data>
+  <data name="colStatusIZV" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="colVrijemeIZV" xml:space="preserve">
+    <value>Vrijeme</value>
+  </data>
+  <data name="frmZadatakHist" xml:space="preserve">
+    <value>Povijest</value>
+  </data>
+  <data name="startExec" xml:space="preserve">
+    <value>Početak izvršenja</value>
+  </data>
+  <data name="colOpisRada" xml:space="preserve">
+    <value>Opis rada</value>
+  </data>
+  <data name="colPosto" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="colStatusZad" xml:space="preserve">
+    <value>Status zadatka</value>
+  </data>
+  <data name="colVrijeme" xml:space="preserve">
+    <value>Vrijeme</value>
+  </data>
+  <data name="colVrstaPosla" xml:space="preserve">
+    <value>Vrsta posla</value>
+  </data>
+  <data name="frmIzvrsenjaPreg" xml:space="preserve">
+    <value>Pregled trenutnih izvršenja</value>
+  </data>
+  <data name="frmTasks" xml:space="preserve">
+    <value>Neizvršene aktivnosti</value>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Ukupno aktivnosti:</value>
+  </data>
+  <data name="pagePlanner1" xml:space="preserve">
+    <value>Pregled</value>
+  </data>
+  <data name="pagePlanner2" xml:space="preserve">
+    <value>Preglednik</value>
+  </data>
+  <data name="viewday" xml:space="preserve">
+    <value>Dan</value>
+  </data>
+  <data name="viewMonth" xml:space="preserve">
+    <value>Mjesec</value>
+  </data>
+  <data name="ViewNavigatorBackwardItem1" xml:space="preserve">
+    <value>Povratak</value>
+  </data>
+  <data name="ViewNavigatorForwardItem1" xml:space="preserve">
+    <value>Nastavak</value>
+  </data>
+  <data name="ViewNavigatorTodayItem1" xml:space="preserve">
+    <value>Danas</value>
+  </data>
+  <data name="ViewNavigatorZoomInItem1" xml:space="preserve">
+    <value>Zoomiraj</value>
+  </data>
+  <data name="ViewNavigatorZoomOutItem1" xml:space="preserve">
+    <value>Odzumiraj</value>
+  </data>
+  <data name="viewTimeline" xml:space="preserve">
+    <value>Vrem.linija</value>
+  </data>
+  <data name="viewWeek" xml:space="preserve">
+    <value>Tjedan</value>
+  </data>
+  <data name="viewWrkWeek" xml:space="preserve">
+    <value>Radni tjedan</value>
+  </data>
+  <data name="chkCustomPrava" xml:space="preserve">
+    <value>Prilagođena prava</value>
+  </data>
+  <data name="colAktiv2" xml:space="preserve">
+    <value>Aktivno</value>
+  </data>
+  <data name="frmPassPolicy" xml:space="preserve">
+    <value>Pravila lozinke</value>
+  </data>
+  <data name="frmPrava" xml:space="preserve">
+    <value>Prava operater</value>
+  </data>
+  <data name="groupPolicy" xml:space="preserve">
+    <value>Uređivanje pravila lozinke</value>
+  </data>
+  <data name="grupe" xml:space="preserve">
+    <value>Grupe</value>
+  </data>
+  <data name="kategorije" xml:space="preserve">
+    <value>Kategorije</value>
+  </data>
+  <data name="lblDescription" xml:space="preserve">
+    <value>Opis:</value>
+  </data>
+  <data name="lblLen" xml:space="preserve">
+    <value>Dužina lozinke:</value>
+  </data>
+  <data name="lblLower" xml:space="preserve">
+    <value>Min.malih slova:</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Naziv:</value>
+  </data>
+  <data name="lblNum" xml:space="preserve">
+    <value>Min.brojeva:</value>
+  </data>
+  <data name="lblSymb" xml:space="preserve">
+    <value>Min.simbola:</value>
+  </data>
+  <data name="lblUpper" xml:space="preserve">
+    <value>Min.velikih slova:</value>
+  </data>
+  <data name="OtvoriGrupa" xml:space="preserve">
+    <value>Otvori Grupu</value>
+  </data>
+  <data name="OtvoriOper" xml:space="preserve">
+    <value>Otvori Operatere</value>
+  </data>
+  <data name="tab" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabGrupe" xml:space="preserve">
+    <value>Grupe</value>
+  </data>
+  <data name="tabOper" xml:space="preserve">
+    <value>Operateri</value>
+  </data>
+  <data name="chkDelete" xml:space="preserve">
+    <value>Brisanje</value>
+  </data>
+  <data name="chkNew" xml:space="preserve">
+    <value>Novi unos</value>
+  </data>
+  <data name="chkPrint" xml:space="preserve">
+    <value>Ispis</value>
+  </data>
+  <data name="chkSave" xml:space="preserve">
+    <value>Spemanje</value>
+  </data>
+  <data name="chkSpecial" xml:space="preserve">
+    <value>Posebna prava</value>
+  </data>
+  <data name="groupPosebna" xml:space="preserve">
+    <value>Posebna prava</value>
+  </data>
+  <data name="lblDopusteno" xml:space="preserve">
+    <value>Dopuštene akcije:</value>
+  </data>
+  <data name="lblSpecial" xml:space="preserve">
+    <value>Pravila lozinke:</value>
+  </data>
+  <data name="menugroupOptions" xml:space="preserve">
+    <value>Postavke sustava</value>
+  </data>
+  <data name="menuOptions" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="PlaniranoVrijeme" xml:space="preserve">
+    <value>Planirano vrijeme</value>
+  </data>
+  <data name="UtrosenoVrijeme" xml:space="preserve">
+    <value>Utrošeno vrim.</value>
+  </data>
+  <data name="dani" xml:space="preserve">
+    <value>Izraženo u danima</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>Izraženo u minutama</value>
+  </data>
+  <data name="sati" xml:space="preserve">
+    <value>Izraženo u satima</value>
+  </data>
+  <data name="groupCulture" xml:space="preserve">
+    <value>Culture Information</value>
+  </data>
+  <data name="groupCurrency" xml:space="preserve">
+    <value>Format Datum i Valuta</value>
+  </data>
+  <data name="groupDays" xml:space="preserve">
+    <value>Dani u tjednu</value>
+  </data>
+  <data name="groupLang" xml:space="preserve">
+    <value>Odabir jezika:</value>
+  </data>
+  <data name="groupMonth" xml:space="preserve">
+    <value>Mjeseci u godini</value>
+  </data>
+  <data name="groupRegion" xml:space="preserve">
+    <value>Informacije o regiji</value>
+  </data>
+  <data name="lblCultureLang" xml:space="preserve">
+    <value>Naziv jezika:</value>
+  </data>
+  <data name="lblCultureLangWin" xml:space="preserve">
+    <value>Verzija Windowsa:</value>
+  </data>
+  <data name="lblCultureName" xml:space="preserve">
+    <value>Naziv:</value>
+  </data>
+  <data name="lblCultureNameEng" xml:space="preserve">
+    <value>Engleski naziv:</value>
+  </data>
+  <data name="lblCultureNameNative" xml:space="preserve">
+    <value>Izvorni naziv:</value>
+  </data>
+  <data name="lblCultureNameNeut" xml:space="preserve">
+    <value>Naziv:</value>
+  </data>
+  <data name="lblFormatedDate" xml:space="preserve">
+    <value>Format datum:</value>
+  </data>
+  <data name="lblFormatedNum" xml:space="preserve">
+    <value>Format brojeva:</value>
+  </data>
+  <data name="lblFullDate" xml:space="preserve">
+    <value>Puni uzorak datum/vrijeme</value>
+  </data>
+  <data name="lblRegionCurr" xml:space="preserve">
+    <value>Simbol:</value>
+  </data>
+  <data name="lblRegionCurrEng" xml:space="preserve">
+    <value>Regionalna valuta engleski</value>
+  </data>
+  <data name="lblRegionEng" xml:space="preserve">
+    <value>Regija engleski naziv</value>
+  </data>
+  <data name="tabGeneralno" xml:space="preserve">
+    <value>Generalno</value>
+  </data>
+  <data name="tabLanguage" xml:space="preserve">
+    <value>Regija &amp;&amp; Jezik</value>
+  </data>
+  <data name="frmOptions" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="chkAktiv" xml:space="preserve">
+    <value>Aktivno</value>
+  </data>
+  <data name="cmdEdit" xml:space="preserve">
+    <value>Uređivanje</value>
+  </data>
+  <data name="colBoja" xml:space="preserve">
+    <value>Boja</value>
+  </data>
+  <data name="colPosNaziv" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="colPosTezina" xml:space="preserve">
+    <value>Vrijednost</value>
+  </data>
+  <data name="colZadNaziv" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="colZadTezina" xml:space="preserve">
+    <value>Vrijednost</value>
+  </data>
+  <data name="frmKategorije" xml:space="preserve">
+    <value>Kategorije</value>
+  </data>
+  <data name="frmKategUnos" xml:space="preserve">
+    <value>Unos kategorija</value>
+  </data>
+  <data name="frmVrste" xml:space="preserve">
+    <value>Vrste</value>
+  </data>
+  <data name="groupVrste" xml:space="preserve">
+    <value>Unos podataka</value>
+  </data>
+  <data name="lblColor" xml:space="preserve">
+    <value>Boja:</value>
+  </data>
+  <data name="lblNapomena" xml:space="preserve">
+    <value>Napomena:</value>
+  </data>
+  <data name="lblNaziv" xml:space="preserve">
+    <value>Naziv:</value>
+  </data>
+  <data name="lblValue" xml:space="preserve">
+    <value>Vrijednost:</value>
+  </data>
+  <data name="tabPosao" xml:space="preserve">
+    <value>Vrste prava</value>
+  </data>
+  <data name="tabProjekt" xml:space="preserve">
+    <value>Vrste projekta</value>
+  </data>
+  <data name="tabZadatak" xml:space="preserve">
+    <value>Vrste zadatka</value>
+  </data>
+  <data name="colImage" xml:space="preserve">
+    <value>Ikona</value>
+  </data>
+  <data name="frmPrioritet" xml:space="preserve">
+    <value>Prioritet</value>
+  </data>
+  <data name="frmPrioritetUnos" xml:space="preserve">
+    <value>Unos prioriteta</value>
+  </data>
+  <data name="frmTezina" xml:space="preserve">
+    <value>Težina zadatka</value>
+  </data>
+  <data name="frmTezinaUnos" xml:space="preserve">
+    <value>Unos zahtjevnosti</value>
+  </data>
+  <data name="groupPreview" xml:space="preserve">
+    <value>Pregled prioriteta</value>
+  </data>
+  <data name="lblIkona" xml:space="preserve">
+    <value>Ikona:</value>
+  </data>
+  <data name="lblTezina" xml:space="preserve">
+    <value>Težina:</value>
+  </data>
+  <data name="Klijent" xml:space="preserve">
+    <value>Klijent</value>
+  </data>
+  <data name="Operater" xml:space="preserve">
+    <value>Operater</value>
+  </data>
+  <data name="Poruke" xml:space="preserve">
+    <value>Poruke</value>
+  </data>
+  <data name="Prioritet" xml:space="preserve">
+    <value>Prioritet</value>
+  </data>
+  <data name="Projekt" xml:space="preserve">
+    <value>Projekt</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>SYSTEM</value>
+  </data>
+  <data name="Testiranje" xml:space="preserve">
+    <value>Testiranje</value>
+  </data>
+  <data name="Tezina" xml:space="preserve">
+    <value>Zahtjevnost</value>
+  </data>
+  <data name="Zadatak" xml:space="preserve">
+    <value>Zadaci</value>
+  </data>
+  <data name="cmdOpen" xml:space="preserve">
+    <value>&amp;Otvori</value>
+  </data>
+  <data name="frmFilesExt" xml:space="preserve">
+    <value>Pregled priloga</value>
+  </data>
+  <data name="cmdBackUp" xml:space="preserve">
+    <value>Back up</value>
+  </data>
+  <data name="cmdRestore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="groupSQL" xml:space="preserve">
+    <value>Informacije o bazi</value>
+  </data>
+  <data name="lblAutentification" xml:space="preserve">
+    <value>Autentifikacije:</value>
+  </data>
+  <data name="lblDatabase" xml:space="preserve">
+    <value>Baza:</value>
+  </data>
+  <data name="lblInstance" xml:space="preserve">
+    <value>Instanca servera:</value>
+  </data>
+  <data name="lblPass" xml:space="preserve">
+    <value>Lozinka:</value>
+  </data>
+  <data name="lblUserName" xml:space="preserve">
+    <value>Korisničko ime:</value>
+  </data>
+  <data name="frmSQL" xml:space="preserve">
+    <value>Konfiguracija SQL baze</value>
+  </data>
+  <data name="colChkSum" xml:space="preserve">
+    <value>chkSum</value>
+  </data>
+  <data name="colDateTime" xml:space="preserve">
+    <value>Datum / vrijeme</value>
+  </data>
+  <data name="colDescription" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="lblInfoApp" xml:space="preserve">
+    <value>Aplikacija:</value>
+  </data>
+  <data name="lblInfoCompIme" xml:space="preserve">
+    <value>Naziv računala:</value>
+  </data>
+  <data name="lblInfoDir" xml:space="preserve">
+    <value>Direktorij aplikacije:</value>
+  </data>
+  <data name="lblInfoDomena" xml:space="preserve">
+    <value>Domena:</value>
+  </data>
+  <data name="lblInfoIP" xml:space="preserve">
+    <value>IP adresa:</value>
+  </data>
+  <data name="lblInfoIPExt" xml:space="preserve">
+    <value>Vanjska IP adresa:</value>
+  </data>
+  <data name="lblInfoKey" xml:space="preserve">
+    <value>Ključ:</value>
+  </data>
+  <data name="lblInfoKorisnik" xml:space="preserve">
+    <value>Korisnik računala:</value>
+  </data>
+  <data name="lblInfoNaslov" xml:space="preserve">
+    <value>Informacije o sustavu</value>
+  </data>
+  <data name="lblInfoOSVer" xml:space="preserve">
+    <value>Verzija OS:</value>
+  </data>
+  <data name="lblInfoVer" xml:space="preserve">
+    <value>Verzija:</value>
+  </data>
+  <data name="lblInfoVrijediDo" xml:space="preserve">
+    <value>Vrijedi do:</value>
+  </data>
+  <data name="frmSystemInfo" xml:space="preserve">
+    <value>Informacije o sustavu</value>
+  </data>
+  <data name="UkupnoDokumenata" xml:space="preserve">
+    <value>Ukupno dokumenata:</value>
+  </data>
+  <data name="rowBaza" xml:space="preserve">
+    <value>Baza</value>
+  </data>
+  <data name="rowJezik" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="rowSkin" xml:space="preserve">
+    <value>Skin</value>
+  </data>
+  <data name="colStatusOpis" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="rowKorakTime" xml:space="preserve">
+    <value>Vrijeme koraka</value>
+  </data>
+  <data name="checkAllDay" xml:space="preserve">
+    <value>Cjelodnevna aktivnost</value>
+  </data>
+  <data name="cmdBrowse" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="cmdBrowse2" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="cmdRecurrence" xml:space="preserve">
+    <value>Ponavljanja</value>
+  </data>
+  <data name="frmPlannerEdit" xml:space="preserve">
+    <value>Podsjetnik</value>
+  </data>
+  <data name="lblCategories" xml:space="preserve">
+    <value>Kategorije:</value>
+  </data>
+  <data name="lblCustomName" xml:space="preserve">
+    <value>Custom I</value>
+  </data>
+  <data name="lblCustomStatus" xml:space="preserve">
+    <value>Custom II</value>
+  </data>
+  <data name="lblEnd" xml:space="preserve">
+    <value>Kraj:</value>
+  </data>
+  <data name="lblStart" xml:space="preserve">
+    <value>Početak:</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="lblSubject" xml:space="preserve">
+    <value>Predmet:</value>
+  </data>
+  <data name="chkMine" xml:space="preserve">
+    <value>Vidljivo samo meni</value>
+  </data>
+  <data name="colMoje" xml:space="preserve">
+    <value>Moje</value>
+  </data>
+  <data name="menuReminder" xml:space="preserve">
+    <value>Podsjetnik</value>
+  </data>
+  <data name="menuExit" xml:space="preserve">
+    <value>Izlaz?</value>
+  </data>
+  <data name="cmdNo" xml:space="preserve">
+    <value>Vrati kao...</value>
+  </data>
+  <data name="cmdYes" xml:space="preserve">
+    <value>Ispravno</value>
+  </data>
+  <data name="groupIzvrsenja" xml:space="preserve">
+    <value>Naziv izvršenja:</value>
+  </data>
+  <data name="lblKomentar" xml:space="preserve">
+    <value>Komentar</value>
+  </data>
+  <data name="lblKorak" xml:space="preserve">
+    <value>Korak:</value>
+  </data>
+  <data name="lblPredvidenoVrim" xml:space="preserve">
+    <value>Predviđeno vrijeme:</value>
+  </data>
+  <data name="lblPrilog" xml:space="preserve">
+    <value>Prilog:</value>
+  </data>
+  <data name="lblPrioritet" xml:space="preserve">
+    <value>Prioritet:</value>
+  </data>
+  <data name="lblProjekt" xml:space="preserve">
+    <value>Projekt:</value>
+  </data>
+  <data name="lblTester" xml:space="preserve">
+    <value>Tester:</value>
+  </data>
+  <data name="lblVrimRada" xml:space="preserve">
+    <value>Vrijeme rada:</value>
+  </data>
+  <data name="lblVrimTest" xml:space="preserve">
+    <value>Vrijeme testa:</value>
+  </data>
+  <data name="lblZadatak" xml:space="preserve">
+    <value>Zadatak:</value>
+  </data>
+  <data name="opt0" xml:space="preserve">
+    <value>Nedovršeno</value>
+  </data>
+  <data name="opt1" xml:space="preserve">
+    <value>Neispravno</value>
+  </data>
+  <data name="opt2" xml:space="preserve">
+    <value>Odbijeno</value>
+  </data>
+  <data name="tabDetOpis" xml:space="preserve">
+    <value>Detaljan opis</value>
+  </data>
+  <data name="tabOpis" xml:space="preserve">
+    <value>Opis zadatka</value>
+  </data>
+  <data name="tabOsnovno" xml:space="preserve">
+    <value>Osnovni podaci</value>
+  </data>
+  <data name="ChangeFontBackColorItem1" xml:space="preserve">
+    <value>Boja pozadine</value>
+  </data>
+  <data name="ChangeFontColorItem1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ChangeFontNameItem1" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="ChangeFontSizeItem1" xml:space="preserve">
+    <value>Vel.fonta</value>
+  </data>
+  <data name="ChangeParagraphLineSpacingItem1" xml:space="preserve">
+    <value>Razmak redova</value>
+  </data>
+  <data name="ChangeTextCaseItem1" xml:space="preserve">
+    <value>Promijeni vel.</value>
+  </data>
+  <data name="ClearFormattingItem1" xml:space="preserve">
+    <value>Ukloni format.</value>
+  </data>
+  <data name="ClipboardRibbonPageGroup1" xml:space="preserve">
+    <value>Cliboard</value>
+  </data>
+  <data name="CommonRibbonPageGroup1" xml:space="preserve">
+    <value>Uobičajeno</value>
+  </data>
+  <data name="CopyItem1" xml:space="preserve">
+    <value>Kopiraj</value>
+  </data>
+  <data name="CutItem1" xml:space="preserve">
+    <value>Izreži</value>
+  </data>
+  <data name="DecreaseIndentItem1" xml:space="preserve">
+    <value>Uvuci</value>
+  </data>
+  <data name="EditingRibbonPageGroup1" xml:space="preserve">
+    <value>Uređivanje</value>
+  </data>
+  <data name="FileNewItem1" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="FileOpenItem1" xml:space="preserve">
+    <value>Otvori</value>
+  </data>
+  <data name="FileRibbonPage1" xml:space="preserve">
+    <value>Datoteka</value>
+  </data>
+  <data name="FileSaveAsItem1" xml:space="preserve">
+    <value>Spremi kao...</value>
+  </data>
+  <data name="FileSaveItem1" xml:space="preserve">
+    <value>Spremi</value>
+  </data>
+  <data name="FindItem1" xml:space="preserve">
+    <value>Pronađi</value>
+  </data>
+  <data name="FontRibbonPageGroup1" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="FontSizeDecreaseItem1" xml:space="preserve">
+    <value>Smanji font</value>
+  </data>
+  <data name="FontSizeIncreaseItem1" xml:space="preserve">
+    <value>Povećaj font</value>
+  </data>
+  <data name="HeaderFooterToolsDesignRibbonPage1" xml:space="preserve">
+    <value>Dizajn</value>
+  </data>
+  <data name="HeaderFooterToolsRibbonPageCategory1" xml:space="preserve">
+    <value>Alati za Header &amp; Footer</value>
+  </data>
+  <data name="HomeRibbonPage1" xml:space="preserve">
+    <value>Uređivanje teksta</value>
+  </data>
+  <data name="IncreaseIndentItem1" xml:space="preserve">
+    <value>Izvuci</value>
+  </data>
+  <data name="InsertRibbonPage1" xml:space="preserve">
+    <value>Insertiranje</value>
+  </data>
+  <data name="PageLayoutRibbonPage1" xml:space="preserve">
+    <value>Pregled</value>
+  </data>
+  <data name="ParagraphRibbonPageGroup1" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="PasteItem1" xml:space="preserve">
+    <value>Zalijepi</value>
+  </data>
+  <data name="PrintItem1" xml:space="preserve">
+    <value>Ispis...</value>
+  </data>
+  <data name="PrintPreviewItem1" xml:space="preserve">
+    <value>Pregled ispisa</value>
+  </data>
+  <data name="QuickPrintItem1" xml:space="preserve">
+    <value>Brzio ispis</value>
+  </data>
+  <data name="RedoItem1" xml:space="preserve">
+    <value>Korak naprijed</value>
+  </data>
+  <data name="ReplaceItem1" xml:space="preserve">
+    <value>Zamijeni</value>
+  </data>
+  <data name="ReviewRibbonPage1" xml:space="preserve">
+    <value>Ograničenja</value>
+  </data>
+  <data name="ShowFontFormItem1" xml:space="preserve">
+    <value>Otvori Font</value>
+  </data>
+  <data name="ShowParagraphFormItem1" xml:space="preserve">
+    <value>Paragraf forma</value>
+  </data>
+  <data name="TableDesignRibbonPage1" xml:space="preserve">
+    <value>Dizajn</value>
+  </data>
+  <data name="TableLayoutRibbonPage1" xml:space="preserve">
+    <value>Izgled</value>
+  </data>
+  <data name="TableToolsRibbonPageCategory1" xml:space="preserve">
+    <value>Alati za tablice</value>
+  </data>
+  <data name="ToggleBulletedListItem1" xml:space="preserve">
+    <value>Bulleti</value>
+  </data>
+  <data name="ToggleFontBoldItem1" xml:space="preserve">
+    <value>Bold</value>
+  </data>
+  <data name="ToggleFontItalicItem1" xml:space="preserve">
+    <value>Italic</value>
+  </data>
+  <data name="ToggleFontStrikeoutItem1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToggleFontSubscriptItem1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToggleFontSuperscriptItem1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToggleFontUnderlineItem1" xml:space="preserve">
+    <value>Podvučeno</value>
+  </data>
+  <data name="ToggleMultiLevelListItem1" xml:space="preserve">
+    <value>Leveliranje</value>
+  </data>
+  <data name="ToggleNumberingListItem1" xml:space="preserve">
+    <value>Numeriranje</value>
+  </data>
+  <data name="ToggleParagraphAlignmentCenterItem1" xml:space="preserve">
+    <value>Centrirano</value>
+  </data>
+  <data name="ToggleParagraphAlignmentJustifyItem1" xml:space="preserve">
+    <value>Raspoređeno</value>
+  </data>
+  <data name="ToggleParagraphAlignmentLeftItem1" xml:space="preserve">
+    <value>Ulijevo</value>
+  </data>
+  <data name="ToggleParagraphAlignmentRightItem1" xml:space="preserve">
+    <value>Udesno</value>
+  </data>
+  <data name="ToggleShowWhitespaceItem1" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="UndoItem1" xml:space="preserve">
+    <value>Korak natrag</value>
+  </data>
+  <data name="ViewRibbonPage1" xml:space="preserve">
+    <value>Izgled stranice</value>
+  </data>
+  <data name="ChangeRangeEditingPermissionsItem1" xml:space="preserve">
+    <value>Ograničenje mogučnosti uređivanja</value>
+  </data>
+  <data name="ChangeSectionColumnsItem1" xml:space="preserve">
+    <value>Kolone</value>
+  </data>
+  <data name="ChangeSectionPageMarginsItem1" xml:space="preserve">
+    <value>Margine</value>
+  </data>
+  <data name="ChangeSectionPageOrientationItem1" xml:space="preserve">
+    <value>Orijentacija</value>
+  </data>
+  <data name="ChangeTableBorderColorItem1" xml:space="preserve">
+    <value>Boja olovke</value>
+  </data>
+  <data name="ChangeTableBorderLineStyleItem1" xml:space="preserve">
+    <value>Stil linije</value>
+  </data>
+  <data name="ChangeTableBorderLineWeightItem1" xml:space="preserve">
+    <value>Debljina linije</value>
+  </data>
+  <data name="ChangeTableBordersItem1" xml:space="preserve">
+    <value>Obrubi</value>
+  </data>
+  <data name="ChangeTableCellsShadingItem1" xml:space="preserve">
+    <value>Boja tablice</value>
+  </data>
+  <data name="ClosePageHeaderFooterItem1" xml:space="preserve">
+    <value>Zatvori Zaglavlje &amp; podnožje</value>
+  </data>
+  <data name="DeleteTableElementsItem1" xml:space="preserve">
+    <value>Brisanje</value>
+  </data>
+  <data name="EditPageFooterItem1" xml:space="preserve">
+    <value>Podnožje</value>
+  </data>
+  <data name="EditPageHeaderItem1" xml:space="preserve">
+    <value>Zaglavlje</value>
+  </data>
+  <data name="GoToNextHeaderFooterItem1" xml:space="preserve">
+    <value>Prikaži slijedeće</value>
+  </data>
+  <data name="GoToPageFooterItem1" xml:space="preserve">
+    <value>Idi do podnožja</value>
+  </data>
+  <data name="GoToPageHeaderItem1" xml:space="preserve">
+    <value>Idi do Zaglavlja</value>
+  </data>
+  <data name="GoToPreviousHeaderFooterItem1" xml:space="preserve">
+    <value>Prikaži prethodno</value>
+  </data>
+  <data name="InsertBookmarkItem1" xml:space="preserve">
+    <value>Zabilješka</value>
+  </data>
+  <data name="InsertHyperlinkItem1" xml:space="preserve">
+    <value>Hyperlink</value>
+  </data>
+  <data name="InsertPageBreakItem1" xml:space="preserve">
+    <value>Razmak stranice</value>
+  </data>
+  <data name="InsertPageCountItem1" xml:space="preserve">
+    <value>Ukupan br.stranica</value>
+  </data>
+  <data name="InsertPageNumberItem1" xml:space="preserve">
+    <value>Broj stranice</value>
+  </data>
+  <data name="InsertPictureItem1" xml:space="preserve">
+    <value>Slika</value>
+  </data>
+  <data name="InsertSymbolItem1" xml:space="preserve">
+    <value>Simboli</value>
+  </data>
+  <data name="InsertTableColumnToLeftItem1" xml:space="preserve">
+    <value>Umetni kolonu lijevo</value>
+  </data>
+  <data name="InsertTableColumnToRightItem1" xml:space="preserve">
+    <value>Umetni kolonu desno</value>
+  </data>
+  <data name="InsertTableItem1" xml:space="preserve">
+    <value>Tablice</value>
+  </data>
+  <data name="InsertTableRowAboveItem1" xml:space="preserve">
+    <value>Umetni red iznad</value>
+  </data>
+  <data name="InsertTableRowBelowItem1" xml:space="preserve">
+    <value>Umetni red ispod</value>
+  </data>
+  <data name="itemStr" xml:space="preserve">
+    <value>Stranica</value>
+  </data>
+  <data name="lblWordCount" xml:space="preserve">
+    <value>Ukupno riječi:</value>
+  </data>
+  <data name="MergeTableCellsItem1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ProtectDocumentItem1" xml:space="preserve">
+    <value>Zaštita dokumenta</value>
+  </data>
+  <data name="SelectTableElementsItem1" xml:space="preserve">
+    <value>Odabir</value>
+  </data>
+  <data name="ShowInsertTableCellsFormItem1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ShowSplitTableCellsForm1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitTableItem1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToggleDifferentFirstPageItem1" xml:space="preserve">
+    <value>Različita prva stranica</value>
+  </data>
+  <data name="ToggleDifferentOddAndEvenPagesItem1" xml:space="preserve">
+    <value>Različita naizmjenična str.</value>
+  </data>
+  <data name="ToggleLinkToPreviousItem1" xml:space="preserve">
+    <value>Referiraj se na prethodno</value>
+  </data>
+  <data name="ToggleShowHorizontalRulerItem1" xml:space="preserve">
+    <value>Horizontalno ravnalo</value>
+  </data>
+  <data name="ToggleShowTableGridLinesItem1" xml:space="preserve">
+    <value>Prikaz crta rešetke</value>
+  </data>
+  <data name="ToggleShowVerticalRulerItem1" xml:space="preserve">
+    <value>Vertikalno ravnalo</value>
+  </data>
+  <data name="ToggleTableCellsBottomCenterAlignmentItem1" xml:space="preserve">
+    <value>Dno-Sredina</value>
+  </data>
+  <data name="ToggleTableCellsBottomLeftAlignmentItem1" xml:space="preserve">
+    <value>Dno-Lijevo</value>
+  </data>
+  <data name="ToggleTableCellsBottomRightAlignmentItem1" xml:space="preserve">
+    <value>Dno-Desno</value>
+  </data>
+  <data name="ToggleTableCellsMiddleCenterAlignmentItem1" xml:space="preserve">
+    <value>Sredina</value>
+  </data>
+  <data name="ToggleTableCellsMiddleLeftAlignmentItem1" xml:space="preserve">
+    <value>Sredina-Gore</value>
+  </data>
+  <data name="ToggleTableCellsMiddleRightAlignmentItem1" xml:space="preserve">
+    <value>Sredina-Desno</value>
+  </data>
+  <data name="ToggleTableCellsTopCenterAlignmentItem1" xml:space="preserve">
+    <value>Gore-Sredina</value>
+  </data>
+  <data name="ToggleTableCellsTopLeftAlignmentItem1" xml:space="preserve">
+    <value>Gore-Lijevo</value>
+  </data>
+  <data name="ToggleTableCellsTopRightAlignmentItem1" xml:space="preserve">
+    <value>Gore-Desno</value>
+  </data>
+  <data name="UnprotectDocumentItem1" xml:space="preserve">
+    <value>Ukloni zaštite</value>
+  </data>
+  <data name="ZoomInItem1" xml:space="preserve">
+    <value>+ Zoom</value>
+  </data>
+  <data name="ZoomOutItem1" xml:space="preserve">
+    <value>- Zoom</value>
+  </data>
+  <data name="frmPrint" xml:space="preserve">
+    <value>Pregled ispisa</value>
+  </data>
+  <data name="PrintPreviewBackground" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PrintPreviewClose" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="PrintPreviewFirstPage" xml:space="preserve">
+    <value>Prva stranica</value>
+  </data>
+  <data name="PrintPreviewGrab" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PrintPreviewHeaderFooter" xml:space="preserve">
+    <value>Header&amp;Footer</value>
+  </data>
+  <data name="PrintPreviewLastPage" xml:space="preserve">
+    <value>Zadnja stranica</value>
+  </data>
+  <data name="PrintPreviewMargine" xml:space="preserve">
+    <value>Margine</value>
+  </data>
+  <data name="PrintPreviewMarker" xml:space="preserve">
+    <value>Marker</value>
+  </data>
+  <data name="PrintPreviewMorePages" xml:space="preserve">
+    <value>Više stranica</value>
+  </data>
+  <data name="PrintPreviewNextPage" xml:space="preserve">
+    <value>Slijedeća str.</value>
+  </data>
+  <data name="PrintPreviewOpen" xml:space="preserve">
+    <value>Otvori</value>
+  </data>
+  <data name="PrintPreviewOptions" xml:space="preserve">
+    <value>Opcije</value>
+  </data>
+  <data name="PrintPreviewOrientation" xml:space="preserve">
+    <value>Orijentacija</value>
+  </data>
+  <data name="PrintPreviewPaint" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PrintPreviewPaperSize" xml:space="preserve">
+    <value>Vel.Papira</value>
+  </data>
+  <data name="PrintPreviewParameters" xml:space="preserve">
+    <value>Parametri</value>
+  </data>
+  <data name="PrintPreviewPDFmail" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PrintPreviewPDFSave" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PrintPreviewPreviousPage" xml:space="preserve">
+    <value>Prethodna str.</value>
+  </data>
+  <data name="PrintPreviewPrint" xml:space="preserve">
+    <value>Ispis...</value>
+  </data>
+  <data name="PrintPreviewQuickPrint" xml:space="preserve">
+    <value>Brzi ispis</value>
+  </data>
+  <data name="PrintPreviewRatio" xml:space="preserve">
+    <value>Razmjer</value>
+  </data>
+  <data name="PrintPreviewRibbonPageGroup1" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="PrintPreviewRibbonPageGroup2" xml:space="preserve">
+    <value>Ispis</value>
+  </data>
+  <data name="PrintPreviewRibbonPageGroup3" xml:space="preserve">
+    <value>Podešavanje stranice</value>
+  </data>
+  <data name="PrintPreviewRibbonPageGroup4" xml:space="preserve">
+    <value>Navigacija</value>
+  </data>
+  <data name="PrintPreviewRibbonPageGroup5" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="PrintPreviewRibbonPageGroup6" xml:space="preserve">
+    <value>Pozadina</value>
+  </data>
+  <data name="PrintPreviewRibbonPageGroup7" xml:space="preserve">
+    <value>Alati</value>
+  </data>
+  <data name="PrintPreviewSave" xml:space="preserve">
+    <value>Spremi</value>
+  </data>
+  <data name="PrintPreviewSearch" xml:space="preserve">
+    <value>Pretraži</value>
+  </data>
+  <data name="PrintPreviewSelect" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PrintPreviewZoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="PrintPreviewZoomIN" xml:space="preserve">
+    <value>+ Zoom</value>
+  </data>
+  <data name="PrintPreviewZoomOut" xml:space="preserve">
+    <value>- Zoom</value>
+  </data>
+  <data name="PrintPreviewZOOOM" xml:space="preserve">
+    <value />
+  </data>
+  <data name="waitCaption0" xml:space="preserve">
+    <value>Inicijalizacija HumansDO...</value>
+  </data>
+  <data name="waitCaption1" xml:space="preserve">
+    <value>Rad u tijeku...</value>
+  </data>
+  <data name="waitCaption10" xml:space="preserve">
+    <value>Provjera vrijednosti...</value>
+  </data>
+  <data name="waitCaption11" xml:space="preserve">
+    <value>Učitavam dokument...</value>
+  </data>
+  <data name="waitCaption12" xml:space="preserve">
+    <value>Povezivanje sa serverom...</value>
+  </data>
+  <data name="waitCaption2" xml:space="preserve">
+    <value>Provjera Korisnika...</value>
+  </data>
+  <data name="waitCaption3" xml:space="preserve">
+    <value>Verifikacija uspješna!</value>
+  </data>
+  <data name="waitCaption4" xml:space="preserve">
+    <value>Inicijalizacija SCRIPT-a...</value>
+  </data>
+  <data name="waitCaption5" xml:space="preserve">
+    <value>Učitavam sistemske podatke...</value>
+  </data>
+  <data name="waitCaption6" xml:space="preserve">
+    <value>Učitavam podatke SQL baze...</value>
+  </data>
+  <data name="waitCaption7" xml:space="preserve">
+    <value>Odlogiravanje sustava!</value>
+  </data>
+  <data name="waitCaption8" xml:space="preserve">
+    <value>Kreiram kategorije!</value>
+  </data>
+  <data name="waitCaption9" xml:space="preserve">
+    <value>Inicijalizacija Planner-a</value>
+  </data>
+  <data name="waitTitle" xml:space="preserve">
+    <value>Molimo pričekajte...</value>
+  </data>
+  <data name="alertCActivation" xml:space="preserve">
+    <value>Aktivacija</value>
+  </data>
+  <data name="alertCancel" xml:space="preserve">
+    <value>Odustan&amp;i</value>
+  </data>
+  <data name="alertCAttention" xml:space="preserve">
+    <value>Pažnja</value>
+  </data>
+  <data name="alertCDelete" xml:space="preserve">
+    <value>Brisanje</value>
+  </data>
+  <data name="alertCEdit" xml:space="preserve">
+    <value>Uređivanje</value>
+  </data>
+  <data name="alertCError" xml:space="preserve">
+    <value>Greška</value>
+  </data>
+  <data name="alertCExit" xml:space="preserve">
+    <value>Izlaz</value>
+  </data>
+  <data name="alertCFinal" xml:space="preserve">
+    <value>Zaključenje</value>
+  </data>
+  <data name="alertCInformation" xml:space="preserve">
+    <value>Informacija</value>
+  </data>
+  <data name="alertContinue" xml:space="preserve">
+    <value>&amp;Nastavak</value>
+  </data>
+  <data name="alertCPrint" xml:space="preserve">
+    <value>Ispis</value>
+  </data>
+  <data name="alertCReactivation" xml:space="preserve">
+    <value>Reaktivacija</value>
+  </data>
+  <data name="alertCSave" xml:space="preserve">
+    <value>Spremanje</value>
+  </data>
+  <data name="alertCTest" xml:space="preserve">
+    <value>Testiranje</value>
+  </data>
+  <data name="alertCValid" xml:space="preserve">
+    <value>Validiranje</value>
+  </data>
+  <data name="alertDelete" xml:space="preserve">
+    <value>&amp;Obriši</value>
+  </data>
+  <data name="alertExit" xml:space="preserve">
+    <value>&amp;Izlaz</value>
+  </data>
+  <data name="alertExport" xml:space="preserve">
+    <value>I&amp;zvoz</value>
+  </data>
+  <data name="alertNo" xml:space="preserve">
+    <value>&amp;Ne</value>
+  </data>
+  <data name="alertOpen" xml:space="preserve">
+    <value>&amp;Otvori</value>
+  </data>
+  <data name="alertPrint" xml:space="preserve">
+    <value>Is&amp;pis</value>
+  </data>
+  <data name="alertSave" xml:space="preserve">
+    <value>&amp;Spremi</value>
+  </data>
+  <data name="alertSaveNoCancel" xml:space="preserve">
+    <value>&amp;Spremi|&amp;Ne|Odustan&amp;i</value>
+  </data>
+  <data name="alertYes" xml:space="preserve">
+    <value>&amp;Da</value>
+  </data>
+  <data name="alertYesNo" xml:space="preserve">
+    <value>&amp;Da|&amp;Ne</value>
+  </data>
+  <data name="alertYesNoCancel" xml:space="preserve">
+    <value>&amp;Da|&amp;Ne|Odustan&amp;i</value>
+  </data>
+  <data name="Rad" xml:space="preserve">
+    <value>Rad u tijeku:</value>
+  </data>
+  <data name="alertCDeleteNo" xml:space="preserve">
+    <value>Ob&amp;riši|&amp;Ne</value>
+  </data>
+  <data name="alertCSaveNo" xml:space="preserve">
+    <value>&amp;Spremi|&amp;Ne</value>
+  </data>
+  <data name="files" xml:space="preserve">
+    <value>Datoteke</value>
+  </data>
+  <data name="chkAll" xml:space="preserve">
+    <value>Svi operateri</value>
+  </data>
+  <data name="cmdBack" xml:space="preserve">
+    <value>Povratak</value>
+  </data>
+  <data name="cmdNext" xml:space="preserve">
+    <value>Nastavak</value>
+  </data>
+  <data name="cmdSaveAdmin" xml:space="preserve">
+    <value>Spremi</value>
+  </data>
+  <data name="frmLoggPreview" xml:space="preserve">
+    <value>Pregled logg-ova</value>
+  </data>
+  <data name="frmSetup" xml:space="preserve">
+    <value>INSTALACIJA</value>
+  </data>
+  <data name="groupAdmin" xml:space="preserve">
+    <value>Unos Super administratora</value>
+  </data>
+  <data name="groupJezik" xml:space="preserve">
+    <value>Odaberite jezik</value>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="lblHint" xml:space="preserve">
+    <value>Hint:</value>
+  </data>
+  <data name="lblIme" xml:space="preserve">
+    <value>Ime:</value>
+  </data>
+  <data name="lblLang" xml:space="preserve">
+    <value>Jezik:</value>
+  </data>
+  <data name="lblPass2" xml:space="preserve">
+    <value>Lozinka:</value>
+  </data>
+  <data name="lblPass22" xml:space="preserve">
+    <value>Ponovljena lozinka:</value>
+  </data>
+  <data name="lblPrezime2" xml:space="preserve">
+    <value>Prezime:</value>
+  </data>
+  <data name="lblUsername2" xml:space="preserve">
+    <value>Korisničko ime:</value>
+  </data>
+  <data name="mess1" xml:space="preserve">
+    <value>Neovlašten ulaz!|Pokušajte ponovno unijeti Korisničko ime i Lozinku!</value>
+  </data>
+  <data name="mess10" xml:space="preserve">
+    <value>Postoji aktivno izvršenje!|Želite li ga zaustaviti?</value>
+  </data>
+  <data name="mess11" xml:space="preserve">
+    <value>Želite li aktivirati zadatak?</value>
+  </data>
+  <data name="mess12" xml:space="preserve">
+    <value>Želite li reAktivirati zadatak?</value>
+  </data>
+  <data name="mess13" xml:space="preserve">
+    <value>Želite li zaključiti trenutno izvršenje i poslati zadatak voditelju na validaciju?</value>
+  </data>
+  <data name="mess14" xml:space="preserve">
+    <value>Zadatak poslan voditelju na validaciju!</value>
+  </data>
+  <data name="mess15" xml:space="preserve">
+    <value>Datoteka već postoji!|Zamijeniti datoteku?</value>
+  </data>
+  <data name="mess16" xml:space="preserve">
+    <value>Promjena jezika će uslijediti nakon izlaska iz trenutnog prozora!</value>
+  </data>
+  <data name="mess17" xml:space="preserve">
+    <value>Napravljene su izmjene|Želite li spremiti izmjene prije izlaska iz prozora?</value>
+  </data>
+  <data name="mess18" xml:space="preserve">
+    <value>Izlaz iz aplikacije?</value>
+  </data>
+  <data name="mess19" xml:space="preserve">
+    <value>Nije odabran operater!</value>
+  </data>
+  <data name="mess2" xml:space="preserve">
+    <value>Želite li spremiti novu vrijednost?</value>
+  </data>
+  <data name="mess20" xml:space="preserve">
+    <value>Nije odabrana vrsta posla!</value>
+  </data>
+  <data name="mess21" xml:space="preserve">
+    <value>Dokument uspješno spremljen!|Te ga je moguće otvoriti i pregledati u ""Pregled priloga""</value>
+  </data>
+  <data name="mess22" xml:space="preserve">
+    <value>Spremiti dokument, kako bi vaš dokument bio vidljiv unutar aplikacije?</value>
+  </data>
+  <data name="mess23" xml:space="preserve">
+    <value>Spremiti dokumenti prije otvaranja novog dokumenta?</value>
+  </data>
+  <data name="mess3" xml:space="preserve">
+    <value>Spemanje završeno!</value>
+  </data>
+  <data name="mess4" xml:space="preserve">
+    <value>Podaci već postoje!|Želite li ih presnimiti?</value>
+  </data>
+  <data name="mess5" xml:space="preserve">
+    <value>Spremi datoteku?</value>
+  </data>
+  <data name="mess6" xml:space="preserve">
+    <value>Prekini trenutno izvršenje?</value>
+  </data>
+  <data name="mess7" xml:space="preserve">
+    <value>Želite li obrisati odabranu stavku?</value>
+  </data>
+  <data name="mess8" xml:space="preserve">
+    <value>Brisanje završeno!</value>
+  </data>
+  <data name="mess9" xml:space="preserve">
+    <value>Želite li testirati zadatak?</value>
+  </data>
+  <data name="naslovSetup0" xml:space="preserve">
+    <value>PODEŠAVANJE SUSTAVA</value>
+  </data>
+  <data name="naslovSetup2" xml:space="preserve">
+    <value>II. Korak - konekcija na SQL bazu</value>
+  </data>
+  <data name="naslovSetup4" xml:space="preserve">
+    <value>IV. Korak - Super administrator</value>
+  </data>
+  <data name="naslovSetup3" xml:space="preserve">
+    <value>III. Korak - Podaci o tvrtki</value>
+  </data>
+  <data name="naslovSetup1" xml:space="preserve">
+    <value>I. Korak - Odabir jezika</value>
+  </data>
+  <data name="naslovSetup5" xml:space="preserve">
+    <value>V. Završiti?</value>
+  </data>
+  <data name="opisSetup0" xml:space="preserve">
+    <value>Za početak rada na aplikaciji potrebno je postaviti sustav, stoga je potrebno popuniti, određene podatke! Kliknite na tipku "Nastavak"!  Sretno!</value>
+  </data>
+  <data name="opisSetup2" xml:space="preserve">
+    <value>U drugom koraku potrebno je popuniti podatke za spajanje na SQL bazu</value>
+  </data>
+  <data name="opisSetup4" xml:space="preserve">
+    <value>U četvrtom koraku potrebno je unijeti podatke za administratora sustava ""Super Administratoru""</value>
+  </data>
+  <data name="opisSetup3" xml:space="preserve">
+    <value>U trećem koraku potrebno je popuniti podatke tvrtke koja koristi HumansDO aplikacija</value>
+  </data>
+  <data name="opisSetup1" xml:space="preserve">
+    <value>Krećemo s prvim korakom.Kako bi sustav radio prema željama klijenata moguće je odabrati jezik sustava, stoga iz padajućeg izbornika odaberite jezik!</value>
+  </data>
+  <data name="opisSetup5" xml:space="preserve">
+    <value>Odabirom tipke ""Završi"" aplikacija će provjeriri ispravnost podataka za SQL bazu te spremiti podatke!</value>
+  </data>
+  <data name="rowTotal" xml:space="preserve">
+    <value>Logirano/Ukupno</value>
+  </data>
+  <data name="colProjektOper" xml:space="preserve">
+    <value>Operateri / Projekti</value>
+  </data>
+  <data name="colVrstaOper" xml:space="preserve">
+    <value>Vrsta</value>
+  </data>
+  <data name="groupOperPro" xml:space="preserve">
+    <value>Operateri - Projekti</value>
+  </data>
+  <data name="cmdNewOrgJed" xml:space="preserve">
+    <value>Org.jedinica</value>
+  </data>
+  <data name="colOrgJed" xml:space="preserve">
+    <value>Org.jed.</value>
+  </data>
+  <data name="colSifra" xml:space="preserve">
+    <value>Šifra</value>
+  </data>
+  <data name="colTvrtkaID" xml:space="preserve">
+    <value>Tvrtka ID</value>
+  </data>
+  <data name="colTvrtkaNaziv" xml:space="preserve">
+    <value>Naziv tvrtke</value>
+  </data>
+  <data name="frmOrgJed" xml:space="preserve">
+    <value>Struktura organizacijskih jedinica</value>
+  </data>
+  <data name="frmOrgJedUnos" xml:space="preserve">
+    <value>Unos Org.jed.</value>
+  </data>
+  <data name="groupStructure" xml:space="preserve">
+    <value>Struktura tvrtke</value>
+  </data>
+  <data name="lblNazivFull" xml:space="preserve">
+    <value>Puni naziv:</value>
+  </data>
+  <data name="lblNazivShort" xml:space="preserve">
+    <value>Skraćeni naziv:</value>
+  </data>
+  <data name="lblSifra" xml:space="preserve">
+    <value>Šifra</value>
+  </data>
+  <data name="lblTvrtka" xml:space="preserve">
+    <value>Tvrtka:</value>
+  </data>
+  <data name="menuOrgJed" xml:space="preserve">
+    <value>Struktura tvrtke</value>
+  </data>
+  <data name="finnish" xml:space="preserve">
+    <value>Završi!</value>
+  </data>
+  <data name="groupSetupAdmin" xml:space="preserve">
+    <value>IV. Podešenje Super administratora</value>
+  </data>
+  <data name="groupSetupCompany" xml:space="preserve">
+    <value>III. Podešenje Tvrtke</value>
+  </data>
+  <data name="groupSetupFinish" xml:space="preserve">
+    <value>V.Završetak!</value>
+  </data>
+  <data name="groupSetupLanguage" xml:space="preserve">
+    <value>I. Podešenje Jezika</value>
+  </data>
+  <data name="groupSetupSQL" xml:space="preserve">
+    <value>II. Podešenja SQL baze</value>
+  </data>
+  <data name="groupSetupWelcome" xml:space="preserve">
+    <value>Početak instalacije</value>
+  </data>
+  <data name="menuAboutApp" xml:space="preserve">
+    <value>O aplikaciji</value>
+  </data>
+  <data name="groupSetupOpisKoraka" xml:space="preserve">
+    <value>Opis koraka</value>
+  </data>
+  <data name="lblTAdresa" xml:space="preserve">
+    <value>Adresa:</value>
+  </data>
+  <data name="lblTBr" xml:space="preserve">
+    <value>Kućni br:</value>
+  </data>
+  <data name="lblTEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="lblTLogo" xml:space="preserve">
+    <value>Logo:</value>
+  </data>
+  <data name="lblTMB" xml:space="preserve">
+    <value>MB:</value>
+  </data>
+  <data name="lblTMjesto" xml:space="preserve">
+    <value>Mjesto:</value>
+  </data>
+  <data name="lblTNaziv" xml:space="preserve">
+    <value>Naziv:</value>
+  </data>
+  <data name="lblTPTT" xml:space="preserve">
+    <value>PTT:</value>
+  </data>
+  <data name="lblTTel" xml:space="preserve">
+    <value>Telefon:</value>
+  </data>
+  <data name="lblTZupanija" xml:space="preserve">
+    <value>Županija:</value>
+  </data>
+  <data name="setupErrorMessAdmin" xml:space="preserve">
+    <value>Nisu ispravno podešeni svi podaci iz IV.koraka "Podešavanje Super administratora"!|Nastaviti?</value>
+  </data>
+  <data name="setupErrorMessJezik" xml:space="preserve">
+    <value>Nije odabran jezik aplikacije u I.koraku "Podešavanje jezika"!|Nastaviti?</value>
+  </data>
+  <data name="setupErrorMessTvrtke" xml:space="preserve">
+    <value>Nisu ispravno podešeni svi podaci iz III.koraka "Podešavanje tvrtke"!|Nastaviti?</value>
+  </data>
+  <data name="setupErrorMessSQL" xml:space="preserve">
+    <value>Nisu ispravno podešeni podaci iz II.koraka "podešenja SQL-a"</value>
+  </data>
+  <data name="chart2text" xml:space="preserve">
+    <value>Prikaz rada - (sati)</value>
+  </data>
+  <data name="mess24" xml:space="preserve">
+    <value>Tema aplikacije je promijenjena!|Želite li spremiti temu, tako da se pri slijdećem pokretanju aplikacije tema aktivira?|</value>
+  </data>
+  <data name="mess25" xml:space="preserve">
+    <value>Jezik aplikacije je promijenjen!|Želite li spremiti jezik, kako bi pri slijedećem pokretanju bio odabrani jezik?|</value>
+  </data>
+  <data name="obavijest1" xml:space="preserve">
+    <value>Notification: New task</value>
+  </data>
+  <data name="waitCaption13" xml:space="preserve">
+    <value>Spremam temu!</value>
+  </data>
+  <data name="waitCaption14" xml:space="preserve">
+    <value>Spremam jezik</value>
+  </data>
+  <data name="welcomeOper" xml:space="preserve">
+    <value>Operater:</value>
+  </data>
+  <data name="welcomePrava" xml:space="preserve">
+    <value>Permission:</value>
+  </data>
+  <data name="welcomeVer" xml:space="preserve">
+    <value>Ver:</value>
+  </data>
+  <data name="popUpTray" xml:space="preserve">
+    <value>Aplikacija je smanjena u tray, te se može tu povratiti na desni klik i odabirom "Otvori"!</value>
+  </data>
+  <data name="dodTesiranje" xml:space="preserve">
+    <value>Zatraženo dodatno testiranje!</value>
+  </data>
+  <data name="popUpNaslov1" xml:space="preserve">
+    <value>Obavijest: Novi projekt</value>
+  </data>
+  <data name="popUpNaslov2" xml:space="preserve">
+    <value>Obavijest: Novi zadatak</value>
+  </data>
+  <data name="popUpNaslov3" xml:space="preserve">
+    <value>Obavijest: Testiranje zadatka</value>
+  </data>
+  <data name="popUpNaslov4" xml:space="preserve">
+    <value>Obavijest: Validacija zadatka</value>
+  </data>
+  <data name="popUpNaslov5" xml:space="preserve">
+    <value>Obavijest: Zadatak zaključen!</value>
+  </data>
+  <data name="popUpNaslov6" xml:space="preserve">
+    <value>Sistemska obavijest</value>
+  </data>
+  <data name="popUpNaslov7" xml:space="preserve">
+    <value>Dobrodošli u aplikaciju</value>
+  </data>
+  <data name="testZavrsen" xml:space="preserve">
+    <value>Test završen</value>
+  </data>
+  <data name="mess26" xml:space="preserve">
+    <value>Želite li započeti novo izvršenje?</value>
+  </data>
+  <data name="colNazivOper" xml:space="preserve">
+    <value>Operater</value>
+  </data>
+  <data name="colVoditelj2" xml:space="preserve">
+    <value>Voditelj</value>
+  </data>
+  <data name="mess28" xml:space="preserve">
+    <value>Izlaz iz aplikacije?|Postoji trenutno aktivno izvršenje!|Želite li ga zaustaviti?</value>
+  </data>
+  <data name="mess29" xml:space="preserve">
+    <value>Želite li potvrditi neispravnost zadataka i verificirati ga kao "Nedovršeno"?</value>
+  </data>
+  <data name="mess30" xml:space="preserve">
+    <value>Želite li potvrditi neispravnost zadataka i verificirati ga kao "Neispravno"?</value>
+  </data>
+  <data name="mess31" xml:space="preserve">
+    <value>Želite li potvrditi neispravnost zadataka i verificirati ga kao "Odbijeno"?</value>
+  </data>
+  <data name="mess32" xml:space="preserve">
+    <value>Želite li potvrditi ispravnost zadataka i verificirati ga kao "Ispravno"?</value>
+  </data>
+  <data name="mess33" xml:space="preserve">
+    <value>Želite li potvrditi ispravnost zadataka i verificirati ga kao "Ispravno"|Uz dodatno testiranje?</value>
+  </data>
+  <data name="mess34" xml:space="preserve">
+    <value>Validiranje završeno!</value>
+  </data>
+  <data name="menuMjesta" xml:space="preserve">
+    <value>Mjesta &amp; Ulice</value>
+  </data>
+  <data name="colNazivM" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="colNazivU" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="colNazivZ" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="frmMjesta" xml:space="preserve">
+    <value>Gradovi &amp;&amp; Ulice</value>
+  </data>
+  <data name="frmMjestaUnos" xml:space="preserve">
+    <value>Unos</value>
+  </data>
+  <data name="groupMjesta" xml:space="preserve">
+    <value>Mjesto</value>
+  </data>
+  <data name="groupUlice" xml:space="preserve">
+    <value>Ulica</value>
+  </data>
+  <data name="groupZupanija" xml:space="preserve">
+    <value>Županija</value>
+  </data>
+  <data name="tabMjesta" xml:space="preserve">
+    <value>Mjesta</value>
+  </data>
+  <data name="tabUlice" xml:space="preserve">
+    <value>Ulice</value>
+  </data>
+  <data name="tabZupanije" xml:space="preserve">
+    <value>Županije</value>
+  </data>
+  <data name="lblAktiv" xml:space="preserve">
+    <value>Aktivno:</value>
+  </data>
+  <data name="mess35" xml:space="preserve">
+    <value>Ulica ne postoji u bazi!|Unijeti novu ulicu:</value>
+  </data>
+  <data name="mess36" xml:space="preserve">
+    <value>Nova ulica uspješno unešena!</value>
+  </data>
+  <data name="waitCaption15" xml:space="preserve">
+    <value>Popunjavam mjesta!</value>
+  </data>
+  <data name="mess37" xml:space="preserve">
+    <value>Potrebna je validacija voditelja|Želite li validirati zadatak?</value>
+  </data>
+  <data name="otvoriMail" xml:space="preserve">
+    <value>Otvori mail</value>
+  </data>
+  <data name="otvoriProjekt" xml:space="preserve">
+    <value>Otvori Projekt</value>
+  </data>
+  <data name="otvoriZadatak" xml:space="preserve">
+    <value>Otvori zadatak</value>
+  </data>
+  <data name="popUpNaslov8" xml:space="preserve">
+    <value>Primili ste mail!</value>
+  </data>
+  <data name="validacijaZadatak" xml:space="preserve">
+    <value>Validacija zadatka</value>
+  </data>
+  <data name="waitCaption16" xml:space="preserve">
+    <value>Postavljam humansDo bazu!</value>
+  </data>
+  <data name="cmdAttachDB" xml:space="preserve">
+    <value>Postavi bazu</value>
+  </data>
+  <data name="mess38" xml:space="preserve">
+    <value>Postavljanje humansDo baze.|Potrebno je odrediti lokaciju SQL servera!|(npr. "C:\Program Files\Microsoft SQL Server\MSSQL10.ServerSQL\MSSQL\DATA")</value>
+  </data>
+  <data name="mess39" xml:space="preserve">
+    <value>SQL baza uspješno postavljena!</value>
+  </data>
+  <data name="aktivZadatak" xml:space="preserve">
+    <value>Želite li aktivirati zadatak?</value>
+  </data>
+  <data name="cmdOrgJedNew" xml:space="preserve">
+    <value>Unos org.jed</value>
+  </data>
+  <data name="cmdRadMjUnos" xml:space="preserve">
+    <value>Unos rad.mjesta</value>
+  </data>
+  <data name="colEmailsub2" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="colMobsub2" xml:space="preserve">
+    <value>Mob.</value>
+  </data>
+  <data name="colNazivsub" xml:space="preserve">
+    <value>Titula</value>
+  </data>
+  <data name="colOsobasub2" xml:space="preserve">
+    <value>Osoba</value>
+  </data>
+  <data name="colTelsub2" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="colVrijednostsub" xml:space="preserve">
+    <value>Vrijednost</value>
+  </data>
+  <data name="exitApp" xml:space="preserve">
+    <value>Zatvori aplikaciju?</value>
+  </data>
+  <data name="groupRadMj" xml:space="preserve">
+    <value>Unos radnog mjesta</value>
+  </data>
+  <data name="ispisStrukture" xml:space="preserve">
+    <value>Pregled organizacijske strukture</value>
+  </data>
+  <data name="lblOrgJed" xml:space="preserve">
+    <value>Org.jed:</value>
+  </data>
+  <data name="loggPreview" xml:space="preserve">
+    <value>Pregled logg-ova</value>
+  </data>
+  <data name="mess40" xml:space="preserve">
+    <value>Korisnik je odustao od unosa ulice!|Pokušajte odabrati postojeću ulicu!</value>
+  </data>
+  <data name="naslov" xml:space="preserve">
+    <value>Naslov:</value>
+  </data>
+  <data name="noviProjekt" xml:space="preserve">
+    <value>Iniciran je novi projekt:</value>
+  </data>
+  <data name="odKoga" xml:space="preserve">
+    <value>Od koga:</value>
+  </data>
+  <data name="openApp" xml:space="preserve">
+    <value>Vrati humansDo...</value>
+  </data>
+  <data name="pokreni" xml:space="preserve">
+    <value>&amp;Pokreni</value>
+  </data>
+  <data name="PregledPriloga" xml:space="preserve">
+    <value>Pregled priloga</value>
+  </data>
+  <data name="pregledTrenutno" xml:space="preserve">
+    <value>Pregled trenutnih izvršenja operatera na</value>
+  </data>
+  <data name="pregledZadatka" xml:space="preserve">
+    <value>Pregled zadataka na</value>
+  </data>
+  <data name="testZadatak" xml:space="preserve">
+    <value>je poslan na dodatno testiranje!</value>
+  </data>
+  <data name="validate1" xml:space="preserve">
+    <value>Obavezan unos vrijednosti!</value>
+  </data>
+  <data name="validZadatak" xml:space="preserve">
+    <value>Potrebno je validirati zadatak!</value>
+  </data>
+  <data name="validZadatak1" xml:space="preserve">
+    <value>Želite li validirati zadatak?</value>
+  </data>
+  <data name="voditelj" xml:space="preserve">
+    <value>Voditelj:</value>
+  </data>
+  <data name="vrijeme" xml:space="preserve">
+    <value>Vrijeme:</value>
+  </data>
+  <data name="zaustavi" xml:space="preserve">
+    <value>&amp;Zaustavi</value>
+  </data>
+  <data name="menuSatnica" xml:space="preserve">
+    <value>Satnica</value>
+  </data>
+  <data name="mess41" xml:space="preserve">
+    <value>Voditelj zadatka zahtijeva testiranje!|Želite li započeti testiranje zadatka</value>
+  </data>
+  <data name="pregAktivnosti" xml:space="preserve">
+    <value>Pregled  aktivnosti na čekanju za operatera</value>
+  </data>
+  <data name="colTvrtka" xml:space="preserve">
+    <value>Tvrtka</value>
+  </data>
+  <data name="groupProOper" xml:space="preserve">
+    <value>Operateri na projektu</value>
+  </data>
+  <data name="groupZad" xml:space="preserve">
+    <value>Unos zadataka</value>
+  </data>
+  <data name="groupZad2" xml:space="preserve">
+    <value>Operateri na zadatku</value>
+  </data>
+  <data name="Operateri" xml:space="preserve">
+    <value>Operateri</value>
+  </data>
+  <data name="cmdPreview" xml:space="preserve">
+    <value>Pre&amp;gled</value>
+  </data>
+  <data name="colOperater" xml:space="preserve">
+    <value>Operater</value>
+  </data>
+  <data name="colTotal" xml:space="preserve">
+    <value>UKUPNO</value>
+  </data>
+  <data name="frmSatnica" xml:space="preserve">
+    <value>Satnica</value>
+  </data>
+  <data name="lblCount" xml:space="preserve">
+    <value>Ukupno:</value>
+  </data>
+  <data name="lblDatum" xml:space="preserve">
+    <value>Datum:</value>
+  </data>
+  <data name="lblUkupno" xml:space="preserve">
+    <value>Ukupno:</value>
+  </data>
+  <data name="menuStatusi" xml:space="preserve">
+    <value>Pregled statusa</value>
+  </data>
+  <data name="cmdZapisnik" xml:space="preserve">
+    <value>Otvori zapisnik</value>
+  </data>
+  <data name="lblZapisnik" xml:space="preserve">
+    <value>Zapisnik s testiranja:</value>
+  </data>
+  <data name="lblFinish" xml:space="preserve">
+    <value>Čestitamo!
+
+Uspješno ste završili instalaciju! Aplikacija će se restartirati nakon 
+što se instalacija završi te će se pojaviti login prozor!
+
+Unosom prethodno unešenog Korisničkog imena i Lozinke ući ćete  u HumansDo aplikaciju!</value>
+  </data>
+  <data name="lblStartWelcome" xml:space="preserve">
+    <value>Kako bi aplikacija humansDo ispravno radila potrebno je postaviti nekoliko postavki koje će biti podijeljene u 5 koraka.
+Tu su postavke baze, administratora, jezika i tvrtke.
+
+Unešene postavke će biti temelj rada i funkcioniranja aplikacije.
+
+Detaljne upute o svakom koraku mogu se vidjeti ispod menija s koracima.
+
+Sretno!</value>
+  </data>
+  <data name="dan" xml:space="preserve">
+    <value>Dan</value>
+  </data>
+  <data name="godina" xml:space="preserve">
+    <value>Godina</value>
+  </data>
+  <data name="lblLozinka2" xml:space="preserve">
+    <value>Lozinka2:</value>
+  </data>
+  <data name="mjesec" xml:space="preserve">
+    <value>Mjesec</value>
+  </data>
+  <data name="tjedan" xml:space="preserve">
+    <value>Tjedan</value>
+  </data>
+  <data name="validate2" xml:space="preserve">
+    <value>Lozinke nisu jednake!</value>
+  </data>
+  <data name="menuPassPolicyPreview" xml:space="preserve">
+    <value>Pregled prava lozinke</value>
+  </data>
+  <data name="colIstek" xml:space="preserve">
+    <value>Datum isteka</value>
+  </data>
+  <data name="colNazivPol" xml:space="preserve">
+    <value>Naziv pravila</value>
+  </data>
+  <data name="frmPassPolicyPreg" xml:space="preserve">
+    <value>Pregled pravila lozinke</value>
+  </data>
+  <data name="colDetOpisIzvr" xml:space="preserve">
+    <value>Det.opis izvršenja</value>
+  </data>
+  <data name="colOpisIzvr" xml:space="preserve">
+    <value>Opis izvršenja</value>
+  </data>
+  <data name="frmOperWorkToday" xml:space="preserve">
+    <value>Dnevni pregled</value>
+  </data>
+  <data name="menuDailyPreg" xml:space="preserve">
+    <value>Dnevni pregled</value>
+  </data>
+  <data name="colKratica" xml:space="preserve">
+    <value>Kratica</value>
+  </data>
+  <data name="frmObrazovanje" xml:space="preserve">
+    <value>Edukacija</value>
+  </data>
+  <data name="groupCertifikat" xml:space="preserve">
+    <value>Certifikati</value>
+  </data>
+  <data name="groupFormalno" xml:space="preserve">
+    <value>Formalno obrazovanje</value>
+  </data>
+  <data name="lblCChkUpis" xml:space="preserve">
+    <value>Upis u radnu knjižicu:</value>
+  </data>
+  <data name="lblCCijena" xml:space="preserve">
+    <value>Cijena:</value>
+  </data>
+  <data name="lblCDatum" xml:space="preserve">
+    <value>Datum završetka:</value>
+  </data>
+  <data name="lblCertifikat" xml:space="preserve">
+    <value>Naziv certrifikata:</value>
+  </data>
+  <data name="lblCKomentar" xml:space="preserve">
+    <value>Komentar:</value>
+  </data>
+  <data name="lblCMjesto" xml:space="preserve">
+    <value>Mjesto:</value>
+  </data>
+  <data name="lblCUstanova" xml:space="preserve">
+    <value>Obrazovna ustanova:</value>
+  </data>
+  <data name="lblFDatum" xml:space="preserve">
+    <value>Datum završetka:</value>
+  </data>
+  <data name="lblFKomentar" xml:space="preserve">
+    <value>Komentar:</value>
+  </data>
+  <data name="lblFMjesto" xml:space="preserve">
+    <value>Mjesto:</value>
+  </data>
+  <data name="lblFstupanj" xml:space="preserve">
+    <value>Stupanj obrazovanja:</value>
+  </data>
+  <data name="lblFUstanova" xml:space="preserve">
+    <value>Obrazovna ustanova:</value>
+  </data>
+  <data name="lblFZanimanje" xml:space="preserve">
+    <value>Zanimanje:</value>
+  </data>
+  <data name="rowObrazovanje" xml:space="preserve">
+    <value>Edukacija</value>
+  </data>
+  <data name="tabCertifikati" xml:space="preserve">
+    <value>Certifikacije</value>
+  </data>
+  <data name="tabFormalno" xml:space="preserve">
+    <value>Formalno obrazovanje</value>
+  </data>
+  <data name="tabSatnica" xml:space="preserve">
+    <value>Satnica tvrtke</value>
+  </data>
+  <data name="menuGroupPlaca" xml:space="preserve">
+    <value>Plaća</value>
+  </data>
+  <data name="menuPageTvrtka" xml:space="preserve">
+    <value>Tvrtka &amp; zaposlenici</value>
+  </data>
+  <data name="menuPlaca" xml:space="preserve">
+    <value>Plaća</value>
+  </data>
+  <data name="menuBolovanje" xml:space="preserve">
+    <value>Bolovanje</value>
+  </data>
+  <data name="menuGO" xml:space="preserve">
+    <value>Godišnji odmori (GO)</value>
+  </data>
+  <data name="menuIzostanci" xml:space="preserve">
+    <value>Izostanci i dodatni sati</value>
+  </data>
+  <data name="menuPlanGO" xml:space="preserve">
+    <value>Plan GO</value>
+  </data>
+  <data name="menuGroupPostOper" xml:space="preserve">
+    <value>Postavke operatera tvrtke</value>
+  </data>
+  <data name="menuGroupPostPlaca" xml:space="preserve">
+    <value>Parametri plaće</value>
+  </data>
+  <data name="menuOrgJedinice" xml:space="preserve">
+    <value>Org.jedinica</value>
+  </data>
+  <data name="menuPodaciTvrtke" xml:space="preserve">
+    <value>Podaci o tvrtci</value>
+  </data>
+  <data name="menuRadnoMj" xml:space="preserve">
+    <value>Radno mjesto</value>
+  </data>
+  <data name="menuPrijevoz" xml:space="preserve">
+    <value>Prijevoz</value>
+  </data>
+  <data name="menuSatnicaTvrtke" xml:space="preserve">
+    <value>Radno vrijeme (satnica)</value>
+  </data>
+  <data name="menuObrazovanje" xml:space="preserve">
+    <value>Edukacija</value>
+  </data>
+  <data name="menuNatjecaji" xml:space="preserve">
+    <value>Natječaji</value>
+  </data>
+  <data name="lblDatumOtvaranje" xml:space="preserve">
+    <value>Otvaranje radnog mjesta:</value>
+  </data>
+  <data name="lblDatumPLan" xml:space="preserve">
+    <value>Planirano zapošljavanje:</value>
+  </data>
+  <data name="lblDatumPopunj" xml:space="preserve">
+    <value>Datum zaposljenja:</value>
+  </data>
+  <data name="lblLokacija" xml:space="preserve">
+    <value>Lokacija:</value>
+  </data>
+  <data name="lblOtvorenoRadMj" xml:space="preserve">
+    <value>Otvoreno radno mjesto</value>
+  </data>
+  <data name="lblRadnoMj" xml:space="preserve">
+    <value>Radno mjesto:</value>
+  </data>
+  <data name="lblVrstaZaposl" xml:space="preserve">
+    <value>Vrsta zaposlenja:</value>
+  </data>
+  <data name="lblNatjecajBr" xml:space="preserve">
+    <value>Natjecaj br:</value>
+  </data>
+  <data name="lblIzvrsitelj" xml:space="preserve">
+    <value>Izvršitelj:</value>
+  </data>
+  <data name="rowJMBG" xml:space="preserve">
+    <value>JMBG</value>
+  </data>
+  <data name="rowOIB" xml:space="preserve">
+    <value>OIB</value>
+  </data>
+</root>

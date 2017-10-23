@@ -1,0 +1,11 @@
+﻿<configuration>
+  <configSections>
+  </configSections>
+  <appSettings>
+    <add key="cn" value="Provider=sqloledb;Server=localhost;UID=ivan;PWD=skyline;DATABASE=humanWorks" />
+    <add key="cn2" value="Data Source=localhost;Initial Catalog=humanWorks;User Id=ivan;Password=skyline" />
+    <add key="cn3" value="Server=SKYNET;Database=humanWorks;User ID=ivan;Password=skyline;Trusted_Connection=False" />
+    <add key="log" value="logXML.xml" />
+    <add key="skin" value="Summer 2008" />
+  </appSettings>
+</configuration>
